@@ -1,0 +1,30 @@
+body {
+  color: #555
+  margin: 0;
+}
+#header a:hover {
+ color: #222;
+ background-color: #1abc9c;
+ height: 150px;
+ line-height: 150px;
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 0,1em
+}
+#header-title {
+ display: block;
+ float: left;
+}
+#header-nav li {
+ display: inline;
+ float: right;
+ margin-top: 0;
+ pading-left: 20px;
+}
+.container {
+ max-width: 1000px;
+ margin: 0 auto;
+ font-size: 20px;
+ font-weight: bold;
+}
